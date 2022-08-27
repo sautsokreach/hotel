@@ -49,7 +49,7 @@ const Rooms = () => {
         Table() 
     },[])
     const [ListRoomss,setListRooms]=useState([]);
-    const endpoint = 'http://hotelroyal.great-site.net/api/rooms'
+    const endpoint = 'https://hotelroyal.great-site.net/api/rooms'
     const Table = () => {
         axios.get(endpoint).then((Response)=>{
             var data1 = Response.data
