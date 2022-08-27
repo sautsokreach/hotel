@@ -81,7 +81,7 @@ const RevenueByMonthsChart = () => {
     useEffect (()=>{
         Table() 
     },[])
-    const endpoint = 'http://127.0.0.1:3001/api/transactions'
+    const endpoint = 'http://hotelroyal.great-site.net/api/transactions'
     const [ListBookings,setListBooking]=useState([]);
     const Table = () => {
         axios.get(endpoint).then((Response)=>{

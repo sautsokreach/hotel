@@ -49,7 +49,7 @@ const Booking = () => {
         Table() 
     },[])
     const [ListBookings,setListBooking]=useState([]);
-    const endpoint = 'http://127.0.0.1:3001/api/Bookings'
+    const endpoint = 'http://hotelroyal.great-site.net/api/Bookings'
     const Table = () => {
         axios.get(endpoint).then((Response)=>{
             var data1 = Response.data
