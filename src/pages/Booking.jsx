@@ -49,7 +49,7 @@ const Booking = () => {
         Table() 
     },[])
     const [ListBookings,setListBooking]=useState([]);
-    const endpoint = https://druidical-hair.000webhostapp.com/api/Bookings'
+    const endpoint = 'https://druidical-hair.000webhostapp.com/api/Bookings'
     const Table = () => {
         axios.get(endpoint).then((Response)=>{
             var data1 = Response.data
